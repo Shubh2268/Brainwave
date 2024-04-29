@@ -1,5 +1,5 @@
 import Section from './Section';
-import { curve } from '../assets/';
+import { curve, robot } from '../assets/';
 import Button from './Button';
 
 const Hero = () => {
@@ -25,6 +25,10 @@ const Hero = () => {
                     <div className='relative z-1 p-0.5 rounded-2xl bg-conic-gradient'>
                         <div className='relative bg-n-8 rounded-[1rem]'>
                             <div className='h-[1.4rem] bg-n-10 rounded-t-[0.9rem]' />
+
+                            <div>
+                                <img src={robot} alt='AI' />
+                            </div>
                         </div>
                     </div>
                 </div>
