@@ -20,6 +20,14 @@ const Hero = () => {
                     </p>
                     <Button href='/pricing' white>Get started</Button>
                 </div>
+
+                <div className='relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24'>
+                    <div className='relative z-1 p-0.5 rounded-2xl bg-conic-gradient'>
+                        <div className='relative bg-n-8 rounded-[1rem]'>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </Section>
     )
