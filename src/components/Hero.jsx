@@ -27,7 +27,7 @@ const Hero = () => {
                             <div className='h-[1.4rem] bg-n-10 rounded-t-[0.9rem]' />
 
                             <div>
-                                <img src={robot} alt='AI' />
+                                <img src={robot} alt='AI' className='w-full' width={1440} height={1800} />
                             </div>
                         </div>
                     </div>
