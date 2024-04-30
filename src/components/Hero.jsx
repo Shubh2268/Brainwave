@@ -1,5 +1,5 @@
 import Section from './Section';
-import { curve, robot } from '../assets/';
+import { curve, heroBackground, robot } from '../assets/';
 import Button from './Button';
 
 const Hero = () => {
@@ -30,6 +30,10 @@ const Hero = () => {
                                 <img src={robot} alt='AI' className='w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]' width={1440} height={1800} />
                             </div>
                         </div>
+                    </div>
+
+                    <div>
+                        <img src={heroBackground} alt='hero' />
                     </div>
                 </div>
             </div>
