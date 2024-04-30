@@ -8,7 +8,7 @@ const Hero = () => {
             <div className='container relative'>
                 <div className='relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]'>
                     <h1 className='h1 mb-6'>
-                        Explore the Possibilities of AI Chatting with Brainwave
+                        Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
                         <span className='inline-block relative'>
                             Brainwave
                             <img src={curve} alt='Curve' className='absolute top-full left-0 w-full xl:-mt-2' width={624} height={28} />
@@ -32,8 +32,8 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    <div>
-                        <img src={heroBackground} className='w-full' width={1440} height={1800} alt='hero' />
+                    <div className='absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]'>
+                        <img src={heroBackground} alt='hero' className='w-full' width={1440} height={1800} />
                     </div>
                 </div>
             </div>
