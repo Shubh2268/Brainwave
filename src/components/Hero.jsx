@@ -58,6 +58,8 @@ const Hero = () => {
                     <BackgroundCircles />
                 </div>
             </div>
+
+            <BottomLine />
         </Section>
     )
 }
