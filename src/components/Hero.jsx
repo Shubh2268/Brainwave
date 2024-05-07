@@ -51,7 +51,7 @@ const Hero = () => {
                                 </ScrollParallax>
 
                                 <ScrollParallax>
-                                    <Notification />
+                                    <Notification className='hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex' />
                                 </ScrollParallax>
                             </div>
                         </div>
