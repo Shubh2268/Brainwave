@@ -48,6 +48,10 @@ const Hero = () => {
                                         ))}
                                     </ul>
                                 </ScrollParallax>
+
+                                <ScrollParallax>
+                                    <Notification />
+                                </ScrollParallax>
                             </div>
                         </div>
 
