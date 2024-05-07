@@ -10,7 +10,7 @@ const Hero = () => {
                     <h1 className='h1 mb-6'>
                         Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
                         <span className='inline-block relative'>
-                            Brainwave
+                            Brainwave {' '}
                             <img src={curve} alt='Curve' className='absolute top-full left-0 w-full xl:-mt-2' width={624} height={28} />
                         </span>
                     </h1>
