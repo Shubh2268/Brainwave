@@ -1,6 +1,7 @@
-import React from 'react';
+import { notification1 } from "../assets";
+import { notificationImages } from "../constants";
 
-const Notification = () => {
+const Notification = ({ className, title }) => {
   return (
     <div>
       
