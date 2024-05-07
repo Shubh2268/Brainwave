@@ -5,6 +5,7 @@ import { BackgroundCircles, BottomLine, Gradient } from './design/Hero';
 import { heroIcons } from '../constants';
 import { ScrollParallax } from 'react-just-parallax';
 import { useRef } from 'react';
+import Generating from './Generating';
 
 const Hero = () => {
 
@@ -35,6 +36,8 @@ const Hero = () => {
 
                             <div className='aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]'>
                                 <img src={robot} alt='AI' className='w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]' width={1440} height={1800} />
+
+                                <Generating />
 
                                 <ScrollParallax isAbsolutelyPositioned>
                                     <ul className='hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex'>
