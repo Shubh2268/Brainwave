@@ -2,9 +2,9 @@ import React from 'react'
 
 const Benefits = () => {
   return (
-    <div>
+    <Section>
       
-    </div>
+    </Section>
   )
 }
 
