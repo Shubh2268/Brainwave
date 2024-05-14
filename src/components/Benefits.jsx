@@ -1,9 +1,10 @@
 import React from 'react'
+import Section from './Section'
 
 const Benefits = () => {
   return (
-    <Section>
-      
+    <Section id='features'>
+      Benefit
     </Section>
   )
 }
