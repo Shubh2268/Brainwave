@@ -10,8 +10,10 @@ const Benefits = () => {
 
         <div className='flex flex-wrap gap-10 mb-10'>
           {benefits.map((item) => (
-            <div className='block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]'>
-              
+            <div key={item.id}>
+              <div>
+                <h5>{item.title}</h5>
+              </div>
             </div>
           ))}
         </div>
