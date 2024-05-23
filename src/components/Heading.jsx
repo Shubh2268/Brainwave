@@ -3,7 +3,7 @@ import React from 'react'
 const Heading = ({ className, title }) => {
   return (
     <div>
-      Heading
+      {title && <h2 className='h2'>{title}</h2>}
     </div>
   )
 }
