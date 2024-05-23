@@ -36,6 +36,8 @@ const Benefits = () => {
                   )}                 
                 </div>
               </div>
+
+              <ClipPath />
             </div>
           ))}
         </div>
@@ -44,4 +46,4 @@ const Benefits = () => {
   )
 }
 
-export default Benefits
+export default Benefits;
