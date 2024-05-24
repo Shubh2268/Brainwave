@@ -1,5 +1,5 @@
 import Section from './Section';
-import { collabContent, collabText } from '../constants';
+import { collabContent, collabText, collabApps } from '../constants';
 import { check, brainwaveSymbol } from '../assets';
 import Button from './Button';
 
@@ -38,6 +38,12 @@ const Collaboration = () => {
                                 </div>
                             </div>
                         </div>
+
+                        <ul>
+                            {collabApps.map((app, index) => (
+                                <li key={app.id} className=''></li>
+                            ))}
+                        </ul>
                     </div>
                 </div>
             </div>
