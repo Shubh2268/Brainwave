@@ -50,6 +50,7 @@ const Collaboration = () => {
                             ))}
                         </ul>
 
+                        <LeftCurve />
                         <RightCurve />
                     </div>
                 </div>
