@@ -1,10 +1,13 @@
-import React from 'react';
+import Section from './Section';
+import Heading from './Heading';
 
 const Services = () => {
   return (
-    <div>
-      Services
-    </div>
+    <Section id='how-to-use'>
+        <div className='container'>
+            <Heading title='Generative AI made for creators.' text='Brainwave unlocks the potential of AI-powered applications' />
+        </div>
+    </Section>
   )
 }
 
