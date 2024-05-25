@@ -1,7 +1,8 @@
 import Section from './Section';
 import Heading from './Heading';
 import { service1, service2, service3, check } from '../assets';
-import { brainwaveServices } from '../constants';
+import { brainwaveServices, brainwaveServicesIcons } from '../constants';
+import Generating from './Generating';
 
 const Services = () => {
   return (
@@ -27,6 +28,8 @@ const Services = () => {
                             ))}
                         </ul>
                     </div>
+
+                    <Generating />
                 </div>
             </div>
         </div>
