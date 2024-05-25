@@ -35,7 +35,7 @@ const Services = () => {
                 <div className='relative z-1 grid gap-5 lg:grid-cols-2'>
                     <div className='relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden'>
                         <div className='absolute inset-0'>
-                            <img src={service2} alt="robot" width={630} height={750} />
+                            <img src={service2} alt="robot" width={630} height={750} className='h-full w-full object-cover' />
                         </div>
                     </div>
                 </div>
