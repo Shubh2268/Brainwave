@@ -37,6 +37,10 @@ const Services = () => {
                         <div className='absolute inset-0'>
                             <img src={service2} alt="robot" width={630} height={750} className='h-full w-full object-cover' />
                         </div>
+
+                        <div className='absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15'>
+                            <h4 className='h4 mb-4'>Photo editing</h4>
+                        </div>
                     </div>
                 </div>
             </div>
