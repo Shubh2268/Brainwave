@@ -3,6 +3,7 @@ import Heading from './Heading';
 import { service1, service2, service3, check } from '../assets';
 import { brainwaveServices, brainwaveServicesIcons } from '../constants';
 import Generating from './Generating';
+import { PhotChatMessage } from './design/Services';
 
 const Services = () => {
     return (
@@ -45,6 +46,8 @@ const Services = () => {
                                     photo editing feature. Try it now!
                                 </p>
                             </div>
+
+                            <PhotChatMessage />
                         </div>
                     </div>
                 </div>
