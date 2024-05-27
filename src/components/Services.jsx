@@ -3,7 +3,7 @@ import Heading from './Heading';
 import { service1, service2, service3, check } from '../assets';
 import { brainwaveServices, brainwaveServicesIcons } from '../constants';
 import Generating from './Generating';
-import { PhotChatMessage } from './design/Services';
+import { PhotChatMessage, Gradient, VideoBar, VideoChatMessage } from './design/Services';
 
 const Services = () => {
     return (
@@ -71,6 +71,8 @@ const Services = () => {
 
                             <div className='relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]'>
                                 <img src={service3} alt='Scary robot' width={520} height={400} className='w-full h-full object-cover' />
+
+                                <VideoChatMessage />
                             </div>
                         </div>
                     </div>
