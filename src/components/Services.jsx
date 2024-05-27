@@ -70,7 +70,7 @@ const Services = () => {
                             </div>
 
                             <div className='relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]'>
-                                
+                                <img src={service3} alt='Scary robot' />
                             </div>
                         </div>
                     </div>
