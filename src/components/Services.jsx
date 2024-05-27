@@ -73,6 +73,7 @@ const Services = () => {
                                 <img src={service3} alt='Scary robot' width={520} height={400} className='w-full h-full object-cover' />
 
                                 <VideoChatMessage />
+                                <VideoBar />
                             </div>
                         </div>
                     </div>
