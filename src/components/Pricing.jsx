@@ -1,4 +1,5 @@
 import Section from './Section';
+import Heading from './Heading';
 import { smallSphere, stars } from '../assets';
 
 const Pricing = () => {
@@ -11,6 +12,8 @@ const Pricing = () => {
                   <img src={stars} alt='Stars' width={950} height={400} className='w-full' />
                 </div>
             </div>
+
+            <Heading title='Pay once, use forever' />
         </div>
     </Section>
   )
