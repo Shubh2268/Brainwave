@@ -22,6 +22,14 @@ const PricingList = () => {
                     <Button className='w-full mb-6' href={item.price ? '/pricing' : 'mailto:shubh2268@gmail.com'} white={!!item.price}>
                         {item.price ? 'Get started' : 'Contact us'}
                     </Button>
+
+                    <ul>
+                        {item.features.map((feature, index) => (
+                            <li key={index} className='flex items-start py-5 border-t border-n-6'>
+                                
+                            </li>
+                        ))}
+                    </ul>
                 </div>
             ))}
         </div>
