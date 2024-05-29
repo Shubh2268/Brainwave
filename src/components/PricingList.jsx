@@ -1,4 +1,5 @@
 import { pricing } from '../constants';
+import Button from './Button';
 
 const PricingList = () => {
     return (
@@ -17,6 +18,10 @@ const PricingList = () => {
                             </>
                         )}
                     </div>
+
+                    <Button className='w-full mb-6' href={item.price ? '/pricing' : 'mailto:shubh2268@gmail.com'} white={!!item.price}>
+                        {item.price ? 'Get started' : 'Contact us'}
+                    </Button>
                 </div>
             ))}
         </div>
