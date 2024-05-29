@@ -28,6 +28,7 @@ const PricingList = () => {
                         {item.features.map((feature, index) => (
                             <li key={index} className='flex items-start py-5 border-t border-n-6'>
                                 <img src={check} alt='Check' width={24} height={24} />
+                                <p className='body-2 ml-4'>{feature}</p>
                             </li>
                         ))}
                     </ul>
