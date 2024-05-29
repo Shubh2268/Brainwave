@@ -2,6 +2,7 @@ import Section from './Section';
 import Heading from './Heading';
 import { smallSphere, stars } from '../assets';
 import PricingList from './PricingList';
+import { LeftLine } from './design/Pricing';
 
 const Pricing = () => {
   return (
@@ -18,6 +19,7 @@ const Pricing = () => {
 
         <div className='relative'>
           <PricingList />
+          <LeftLine />
         </div>
       </div>
     </Section>
