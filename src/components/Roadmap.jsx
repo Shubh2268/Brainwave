@@ -1,10 +1,11 @@
 import React from 'react';
+import Section from './Section';
 
 const Roadmap = () => {
   return (
-    <div>
-      Roadmap
-    </div>
+   <Section>
+    
+   </Section>
   )
 }
 
