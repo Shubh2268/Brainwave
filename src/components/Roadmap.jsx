@@ -3,8 +3,8 @@ import Section from './Section';
 
 const Roadmap = () => {
   return (
-   <Section>
-    
+   <Section id='roadmap' className='overflow-hidden'>
+
    </Section>
   )
 }
