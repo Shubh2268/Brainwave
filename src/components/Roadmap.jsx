@@ -32,7 +32,7 @@ const Roadmap = () => {
                                         </div>
 
                                         <div className='mb-10 -my-10 -mx-15'>
-                                            <img src={item.imageUrl} alt={item.title} />
+                                            <img src={item.imageUrl} alt={item.title} width={628} height={426} />
                                         </div>
                                     </div>
                                 </div>
