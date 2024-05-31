@@ -27,6 +27,7 @@ const Roadmap = () => {
 
                                             <div className='flex items-center px-4 py-1 bg-n-1 rounded text-n-8'>
                                                 <img src={item.status === 'done' ? check2 : loading1} alt={status} width={16} height={16} className='mr-2.5' />
+                                                <div className='tagline'>{status}</div>
                                             </div>
                                         </div>
                                     </div>
