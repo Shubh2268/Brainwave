@@ -3,6 +3,7 @@ import Heading from './Heading';
 import { roadmap } from '../constants';
 import { check2 ,grid, loading1 } from '../assets';
 import TagLine from './TagLine';
+import { Gradient } from './design/Roadmap';
 
 const Roadmap = () => {
     return (
@@ -43,6 +44,7 @@ const Roadmap = () => {
                         )
                     })}
 
+                    <Gradient />
                 </div>
             </div>
         </Section>
