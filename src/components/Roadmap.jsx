@@ -2,6 +2,7 @@ import Section from './Section';
 import Heading from './Heading';
 import { roadmap } from '../constants';
 import { check2 ,grid, loading1 } from '../assets';
+import TagLine from './TagLine';
 
 const Roadmap = () => {
     return (
@@ -22,7 +23,7 @@ const Roadmap = () => {
 
                                     <div className='relative z-1'>
                                         <div className='flex items-center justify-between max-w-[27rem] mb-8 md:mb-20'>
-                                            
+                                            <TagLine></TagLine>
                                         </div>
                                     </div>
                                 </div>
