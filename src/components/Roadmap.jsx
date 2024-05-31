@@ -34,6 +34,8 @@ const Roadmap = () => {
                                         <div className='mb-10 -my-10 -mx-15'>
                                             <img src={item.imageUrl} alt={item.title} width={628} height={426} className='w-full' />
                                         </div>
+
+                                        <h4 className='h4 mb-4'>{item.title}</h4>
                                     </div>
                                 </div>
                             </div>
