@@ -30,6 +30,10 @@ const Roadmap = () => {
                                                 <div className='tagline'>{status}</div>
                                             </div>
                                         </div>
+
+                                        <div className='mb-10 -my-10 -mx-15'>
+                                            <img src={item.imageUrl} alt={item.title} />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
