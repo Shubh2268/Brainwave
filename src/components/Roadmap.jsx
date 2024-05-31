@@ -23,7 +23,7 @@ const Roadmap = () => {
 
                                     <div className='relative z-1'>
                                         <div className='flex items-center justify-between max-w-[27rem] mb-8 md:mb-20'>
-                                            <TagLine></TagLine>
+                                            <TagLine>{item.date}</TagLine>
                                         </div>
                                     </div>
                                 </div>
