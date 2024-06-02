@@ -1,4 +1,5 @@
 import Section from './Section';
+import { socials } from '../constants';
 
 const Footer = () => {
     return (
@@ -9,7 +10,9 @@ const Footer = () => {
                 </p>
 
                 <ul className='flex gap-5 flex-wrap'>
-                    
+                    {socials.map((item) => (
+                        <a href={item.url} target='_blank' key={item.id}></a>
+                    ))}
                 </ul>
             </div>
         </Section>
